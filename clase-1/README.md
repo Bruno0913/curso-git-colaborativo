@@ -33,17 +33,12 @@ let variable = "hola mundo"
 
 # Listado de TODOS
 
-[x] - Tarea 1
-[ ] - Tarea 2
+-[x] - Tarea 1
+-[  ] - Tarea 2
 
-# Crear repositorio GIT
-Se ejecuta dentro de la raíz del proyecto que se quiere versionar
-```bash
-git init
-```
-
-# que pasa con el repo
-
-git status
 
 # que paso del working directory al staging area
+
+gid add README.md
+
+**IMPORTANTE**: Git no versiona carpetas vacias
