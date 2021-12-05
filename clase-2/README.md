@@ -5,17 +5,20 @@ Se ejecuta dentro de la raíz del proyecto que se quiere versionar
 ```bash
 git init
 ```
-# repositorio de forma global ,local y verificacion
+# Repositorio de forma global ,local y verificacion
 git config --global user.name "BRUNO"
 git config --local user.name "BRUNO FRASSINELLI"
 git config --local --get-regexp user
 
-# que pasa con el repo
+# Que pasa con el repo
 
 git status
 
-# que paso del working directory al staging area
-git add README.md
+# Que paso del working directory al staging area
+git add README.md < de un solo archivo
+
+## Todos los archivos
+git add .
 
 **IMPORTANTE**: Git no versiona carpetas vacias
 Para que versione la carpeta tengo que crear un archivo llamado **.gitkeep**
