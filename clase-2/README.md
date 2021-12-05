@@ -30,3 +30,8 @@ Para que versione la carpeta tengo que crear un archivo llamado **.gitkeep**
 ## Para hacer un commit
 git commit
 Te abre el nano y vos le pones la descripción del commit
+Abre el nano, colocan la descripcion
+hacen Ctrl + o, guardan los cambio
+Y para salir Ctrl + x
+
+git commit -m "mensaje"
