@@ -5,7 +5,11 @@ Se ejecuta dentro de la raíz del proyecto que se quiere versionar
 ```bash
 git init
 ```
-# Repositorio de forma global ,local y verificacion
+# Programas para versionado
+
+GitKraken https://www.gitkraken.com/download
+Github Desktop https://desktop.github.com/
+# # Repositorio de forma global ,local y verificacion
 git config --global user.name "BRUNO"
 git config --local user.name "BRUNO FRASSINELLI"
 git config --local --get-regexp user
@@ -23,7 +27,6 @@ git add .
 **IMPORTANTE**: Git no versiona carpetas vacias
 Para que versione la carpeta tengo que crear un archivo llamado **.gitkeep**
 
-# Programas para versionado
-
-GitKraken https://www.gitkraken.com/download
-Github Desktop https://desktop.github.com/
+## Para hacer un commit
+git commit
+Te abre el nano y vos le pones la descripción del commit
