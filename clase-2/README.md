@@ -18,6 +18,7 @@ git config --local --get-regexp user
 
 git status
 
+
 # Que paso del working directory al staging area
 git add README.md < de un solo archivo
 
@@ -35,3 +36,13 @@ hacen Ctrl + o, guardan los cambio
 Y para salir Ctrl + x
 
 git commit -m "mensaje"
+
+# PASOS BÁSICOS
+
+echo "# curso-git-colaborativo" >> README.md
+git init
+git add README.md // git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bruno0913(usuario de git)/curso-git-colaborativo.git(nombre del repositor)
+git push -u origin master

@@ -34,7 +34,7 @@ let variable = "hola mundo"
 # Listado de TODOS
 
 -[x] - Tarea 1
--[  ] - Tarea 2
+-[ ] - Tarea 2
 
 
 # que paso del working directory al staging area
