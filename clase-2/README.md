@@ -10,9 +10,9 @@ git init
 GitKraken https://www.gitkraken.com/download
 Github Desktop https://desktop.github.com/
 # # Repositorio de forma global ,local y verificacion
-git config --global user.name "BRUNO"
-git config --local user.name "BRUNO FRASSINELLI"
-git config --local --get-regexp user
+1. git config --global user.name "BRUNO"
+2. git config --local user.name "BRUNO FRASSINELLI"
+3. git config --local --get-regexp user
 
 # Que pasa con el repo
 
@@ -37,12 +37,19 @@ Y para salir Ctrl + x
 
 git commit -m "mensaje"
 
-# PASOS BÁSICOS
+# PASOS BÁSICOS Iniciales
 
 echo "# curso-git-colaborativo" >> README.md
-git init
-git add README.md // git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Bruno0913(usuario de git)/curso-git-colaborativo.git(nombre del repositor)
-git push -u origin master
+1. git init
+2. git add README.md // git add .
+3. git commit -m "first commit"
+4. git branch -M main
+5. git remote add origin https://github.com/Bruno0913(usuario de git)/curso-git-colaborativo.git(nombre del repositor)
+6. git push -u origin master
+
+#luego de los pasos básicos
+
+1. git status
+2. git add .
+3. git commit -m "descripcion del commit"
+4. git push
