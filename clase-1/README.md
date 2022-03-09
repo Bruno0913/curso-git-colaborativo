@@ -33,12 +33,27 @@ let variable = "hola mundo"
 
 # Listado de TODOS
 
--[x] - Tarea 1
--[ ] - Tarea 2
+- [x] - Tarea 1
+- [  ] - Tarea 2
 
+# Crear repositorio GIT
+Se ejecuta dentro de la raíz del proyecto que quiero versionar
+
+```bash
+git init
+```
+# Que pasa con el repo
+
+git status
 
 # que paso del working directory al staging area
 
 gid add README.md
 
-**IMPORTANTE**: Git no versiona carpetas vacias
+**IMPORTANTE**: Git no versiona carpetas vaciás
+Para que versione la carpeta tengo que crear un archivo llamado **.gitkeep**
+
+# Programas para versionado
+GitKraken https://www.gitkraken.com/download
+Github Desktop https://desktop.github.com/
+
