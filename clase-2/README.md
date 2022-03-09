@@ -5,7 +5,7 @@ Se ejecuta dentro de la raíz del proyecto que se quiere versionar
 ```bash
 git init
 ```
-# # Repositorio de forma global ,local y verificacion
+# # Repositorio de forma global ,local y verificación
 1. git config --global user.name "BRUNO"
 2. git config --local user.name "BRUNO FRASSINELLI"
 3. git config --local --get-regexp user
@@ -24,7 +24,7 @@ git add .
 ## Para hacer un commit
 git commit
 Te abre el nano y vos le pones la descripción del commit
-1. Abre el nano, colocan la descripcion
+1. Abre el nano, colocan la descripción
 2. Hacen Ctrl + o, guardan los cambio
 3. Y para salir Ctrl + x
 
@@ -40,9 +40,9 @@ hecho "# curso-git-colaborativo" >> README.md
 5. git remote add origin https://github.com/Bruno0913(usuario de git)/curso-git-colaborativo.git(nombre del repositor)
 6. git push -u origin master
 
-#luego de los pasos básicos
+## luego de los pasos básicos
 
 1. git status
 2. git add .
-3. git commit -m "descripcion del commit"
+3. git commit -m "descripción del commit"
 4. git push
