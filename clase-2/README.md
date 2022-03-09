@@ -24,9 +24,9 @@ git add .
 ## Para hacer un commit
 git commit
 Te abre el nano y vos le pones la descripción del commit
-Abre el nano, colocan la descripcion
-hacen Ctrl + o, guardan los cambio
-Y para salir Ctrl + x
+1. Abre el nano, colocan la descripcion
+2. Hacen Ctrl + o, guardan los cambio
+3. Y para salir Ctrl + x
 
 git commit -m "mensaje"
 
