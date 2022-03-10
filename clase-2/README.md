@@ -46,3 +46,14 @@ hecho "# curso-git-colaborativo" >> README.md
 2. git add .
 3. git commit -m "descripción del commit"
 4. git push
+
+# GIT Stash
+Me guaro los cambios que están en working directory(WD) en un temporal
+
+```bash
+git stash
+```
+
+```bash
+git stash
+```
