@@ -10,7 +10,6 @@ git stash
 ```bash
 git stash list
 ```
-
 # .gitignore
 Este archivo, es una blacklist de archivo. Todos los archivos que coloque dentro de el archivo ".gitignore", van a ser descartados
 
@@ -27,4 +26,45 @@ git commit --amend -m "Agrego lo de git log"
 ```bash
 git commit -am "nombre del commit"
 ```
+# GIT remote
 
+ver si tengo el repo remoto configurado
+
+```bash
+git remote -v
+```
+### Agregar un repositorio a mi repo local
+```bash
+git remote {alias de su repositorio} https://github.com/Bruno0913{usuarioGit}/curso-git-colaborativo{nombreRepo/proyecto}.git
+```
+### Borro repositorio remoto del local
+```bash
+git remote rename {origin} {it} https://github.com/Bruno0913{usuarioGit}/curso-git-colaborativo{nombreRepo/proyecto}.git
+```
+### Borro repositorio remoto local
+```bash
+git remote rm {origin} https://github.com/Bruno0913{usuarioGit}/curso-git-colaborativo{nombreRepo/proyecto}.git
+```
+
+### Para lista un solo commit
+
+git log --oneline -1
+
+### De una fecha en particular
+```bash
+git log --since="2021-10-01"
+git log --after="2021-10-01"
+git log --before="2021-10-01"
+git log --after="2021-10-01" --before="2021-10-21" --oneline
+```
+```bash
+git log --oneline --decorate --all --graph
+```
+# BRANCH
+```bash
+git branch {nombre rama}
+```
+### Ejemplo
+```bash
+git branch dev
+```
