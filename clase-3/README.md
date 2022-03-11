@@ -13,3 +13,6 @@ git stash list
 
 # .gitignore
 Este archivo, es una blacklist de archivo. Todos los archivos que coloque dentro de el archivo ".gitignore", van a ser descartados
+
+# GIT Log
+Cuando estoy dentro del comando tengo que presionar la tecla **q** del teclado para salir
