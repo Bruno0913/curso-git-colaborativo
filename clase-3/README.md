@@ -22,4 +22,9 @@ Cuando estoy dentro del comando tengo que presionar la tecla **q** del teclado p
 ```bash
 git commit --amend -m "Agrego lo de git log"
 ```
+#  ADD y COMMIT todo junto 
+**IMPORTANTE**Tengo que tener en el Staging AREA.
+```bash
+git commit -am "nombre del commit"
+```
 
