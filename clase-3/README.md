@@ -57,6 +57,7 @@ git log --after="2021-10-01"
 git log --before="2021-10-01"
 git log --after="2021-10-01" --before="2021-10-21" --oneline
 ```
+# Se muestra de forma grafica las ramas
 ```bash
 git log --oneline --decorate --all --graph
 ```
