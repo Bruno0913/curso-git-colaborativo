@@ -16,3 +16,10 @@ Este archivo, es una blacklist de archivo. Todos los archivos que coloque dentro
 
 # GIT Log
 Cuando estoy dentro del comando tengo que presionar la tecla **q** del teclado para salir
+
+# Corregir el última descripción del commit
+
+```bash
+git commit --amend -m "Agrego lo de git log"
+```
+
