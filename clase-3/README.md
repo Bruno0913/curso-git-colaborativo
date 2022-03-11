@@ -68,3 +68,8 @@ git branch {nombre rama}
 ```bash
 git branch dev
 ```
+
+# Agrego algo en la misma linea de la otra rama
+# Sigo agregando código
+# Agrego algo en la misma linea de la otra rama
+# Sigo agregando código
