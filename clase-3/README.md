@@ -57,7 +57,6 @@ git log --after="2021-10-01"
 git log --before="2021-10-01"
 git log --after="2021-10-01" --before="2021-10-21" --oneline
 ```
-# Se muestra de forma gráfica las ramas
 ```bash
 git log --oneline --decorate --all --graph
 ```
@@ -66,11 +65,24 @@ git log --oneline --decorate --all --graph
 git branch {nombre rama}
 ```
 ### Ejemplo
+
 ```bash
 git branch dev
 ```
 
-Cambio de Rama
+Otra forma de cambiar de rama
+
 ```bash
-git switch dev
+git checkout <rama>
 ```
+
+Creo una rama y me cambio a la nueva rama
+```bash
+git checkout -b <rama>
+```
+Borrar una rama
+
+```bash
+
+```
+
