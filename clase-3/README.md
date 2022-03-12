@@ -69,7 +69,19 @@ git branch {nombre rama}
 git branch dev
 ```
 
-# Agrego algo en la misma linea de la otra rama
-# Sigo agregando código
-# Agrego algo en la misma linea de la otra rama
-# Sigo agregando código
+Otra forma de cambiar de rama
+
+```bash
+git checkout <rama>
+```
+
+Creo una rama y me cambio a la nueva rama
+```bash
+git checkout -b <rama>
+```
+Borrar una rama
+
+```bash
+
+```
+
