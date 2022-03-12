@@ -49,7 +49,7 @@ git remote rm {origin} https://github.com/Bruno0913{usuarioGit}/curso-git-colabo
 ### Para lista un solo commit
 
 git log --oneline -1
-
+,,
 ### De una fecha en particular
 ```bash
 git log --since="2021-10-01"
@@ -70,19 +70,25 @@ git branch {nombre rama}
 git branch dev
 ```
 
-Otra forma de cambiar de rama
+## Otra forma de cambiar de rama
 
 ```bash
 git checkout <rama>
 ```
 
-Creo una rama y me cambio a la nueva rama
+## Creo una rama y me cambio a la nueva rama
 ```bash
 git checkout -b <rama>
 ```
-Borrar una rama
+## Borrar una rama
 
 ```bash
- me equivoque 
+  git branch -d <rama>
+```
+## Borro la rama de forma forzada
+
+```bash
+git branch -d <rama> -f
+git branch -D <rama>
 ```
 
