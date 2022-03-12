@@ -83,6 +83,6 @@ git checkout -b <rama>
 Borrar una rama
 
 ```bash
-
+ me equivoque 
 ```
 
