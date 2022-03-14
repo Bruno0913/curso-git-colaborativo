@@ -27,3 +27,9 @@ git config alias.s "status"
 ```bash
 git config --get-regexp alias
 ```
+
+# AYUDA DE GIT en LOCAL
+
+```bash
+git help <nombreComando>
+```
