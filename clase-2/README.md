@@ -53,7 +53,8 @@ Me guaro los cambios que están en working directory(WD) en un temporal
 ```bash
 git stash
 ```
-
+# git stash pop 
+TRae del area temporal y el elimina el stach anterior
 ```bash
-git stash
+git stash pop
 ```
