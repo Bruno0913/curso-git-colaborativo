@@ -33,3 +33,17 @@ git config --get-regexp alias
 ```bash
 git help <nombreComando>
 ```
+
+## Para quitar un alias o cualquier configuración que hice
+
+```bash
+ git config --get-regexp alias
+ ```
+ 
+ ```bash
+ git config --unset alias.s
+ ```
+ ## Modifico manualmente la configuración de git
+ ```bash
+ git config --global -e // Abre el editor configurado por defecto en git 
+ ```
