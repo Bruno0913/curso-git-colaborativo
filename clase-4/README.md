@@ -47,3 +47,13 @@ git help <nombreComando>
  ```bash
  git config --global -e // Abre el editor configurado por defecto en git 
  ```
+ # Para moverme entre los commit
+** IMPORTANTE **: No es recomendable salvo casos muy específicos moverme entre los commits
+
+```bash
+git checkout <HashDeCommit>
+```
+Ejemplo 
+```bash
+git checkout 2b4b140
+```
