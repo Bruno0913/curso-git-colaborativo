@@ -6,7 +6,7 @@
 git add .
 ```
 
-## borre el archivo fisico del WD, para quitarlo tengo que hacer lo siguiente
+## borre el archivo físico del WD, para quitarlo tengo que hacer lo siguiente
 
 ```bash
 git rm <nombreArchivo>
@@ -67,4 +67,16 @@ git push --set-upstream <urlDelRemoto> https://github.com/Bruno0913/curso-git-co
 # Quito el seguimiento de esa rama en el remoto
 ```bash
 git push --unset-upstream <urlDelRemoto> <nombreDeLaRama>
+```
+
+# Para subir todas las ramas al remoto
+
+```bash
+git push --all
+```
+
+# PAra listar todas las ramas local y del remoto
+
+```bash
+git branch -av
 ```
