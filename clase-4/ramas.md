@@ -7,7 +7,7 @@
 * Manual - (conflicto - Ocurre cuando hay modificaciones en las mismas líneas y archivos).
 
 
-**Nota**: estás son las tres posibilades que podemos encontrarnos al hacer un merge
+**Nota**: estás son las tres posibilidades que podemos encontrarnos al hacer un merge
 ### Para abortar el merge
 
 ```bash
