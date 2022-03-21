@@ -27,3 +27,6 @@ Creando tareas vinculadas a issues
 
 # Wiki
 Crear una wiki, documentación del proyecto
+
+# TAGS
+Me sirven para buscar las versiones o relase que correspondan a un tag. Son referencias a un commit especifico en el  tiempo
