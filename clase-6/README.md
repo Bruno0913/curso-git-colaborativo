@@ -76,7 +76,7 @@ git rebase --abort
 ## Continuar con el rebase para finalizar
 
 ```bash
-git rebase ..continue
+git rebase --continue
 ```
 
 ## REBASE INTERACTIVO
@@ -84,3 +84,17 @@ git rebase ..continue
 ```bash
 git rebase -1
 ```
+
+## Crear un submodulo
+
+```bash
+git submodule init
+```
+## Lo agrego al submodulo
+
+```bash
+git submodule add <url> <directorio>
+```
+## Actualizar el submodulo
+
+git submodule update

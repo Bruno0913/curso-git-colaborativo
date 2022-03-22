@@ -1,0 +1,3 @@
+[submodule "jg"]
+	path = jg
+	url = https://github.com/jquery/jquery
