@@ -39,3 +39,6 @@ git reset --mixed <hash>
 Este Destructivo: Peligroso, mucho cuidado.
 
 git reset --hard <hash>
+
+# REFLOG
+Un log de las referencias de todo lo que ha sucedido en orden cronológico
