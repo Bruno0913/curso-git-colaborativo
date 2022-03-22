@@ -52,3 +52,35 @@ git reflog
 ```bash
 git clone https:
 ```
+# REBASE
+
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir commits 
+* Separar commits
+
+Siempre tengo que estar en la rama que quiero integrarle los cambios
+
+Ej: si quiero traerme los cambios de master a mi ramaRebase, tengo que estar en ramaRebase
+
+## Rama de donde se traen los archivos
+```bash
+git rebase master
+```
+
+## Para abortar
+```bash
+git rebase --abort
+```
+
+## Continuar con el rebase para finalizar
+
+```bash
+git rebase ..continue
+```
+
+## REBASE INTERACTIVO
+
+```bash
+git rebase -1
+```
